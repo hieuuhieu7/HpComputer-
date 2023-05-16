@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NguyenNgocHieu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <link href="/your-path-to-uicons/css/uicons-[your-style].css" rel="stylesheet">
+    
+</head>
+    <body>
+        <!-- Block Element Modifier -->
+        <div class="app">
+            <header class="header">
+                <div class="grid">
+                    <nav class="header__navbar">
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                                <strong><h2 style="font-style: italic;">HpComputer</h2></strong>
+
+                                <!-- Header QR Code -->
+                                <div class="header__qr">
+                                    <img src="./assets/img/qr_code.png" alt="QR code" class="header__qr-img">
+                                    <div class="header__qr-apps">
+                                        <a href="" class="header__qr-link">
+                                            <img src="./assets/img/appstore.png" alt="AppStore" class="header__qr-dowload-img">
+                                        </a>
+                                        <a href="" class="header__qr-link">
+                                            <img src="./assets/img/googleplay.png" alt="GooglePlay" class="header__qr-dowload-img">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header__navbar-item">
+                                <span class="header__navbar-title--no-pointer">Kết nối</span>
+                                <a href="" class="header__navbar-icon-link">
+                                    <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                                </a>
+                                <a href="" class="header__navbar-icon-link">
+                                    <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+        
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item header__navbar-item--has-notify">
+                                <a href="" class="header__navbar-item-link">
+                                    <i class="header__navbar-icon fa-solid fa-bell"></i>
+                                    Thông báo
+                                </a>
+                                <div class="header__notify">
+                                    <header class="header__notify-header">
+                                        <h3>Thông báo</h3>
+                                    </header>
+                                    <ul class="header__notify-list">
+                                        <li class="header__notify-item header__notify-item--viewed">
+                                            <a href="" class="header__notify-link">
+                                                <img src="https://i0.wp.com/arenait.ro/files/2022/09/nvidia-rtx-4090-nvlink.png?resize=700%2C468&quality=100&strip=all&ssl=1" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">RTX 4090 24gb</span>
+                                                    <span class="header__notify-descriotion">Đã có sẵn tại cửa hàng</span>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                        <li class="header__notify-item header__notify-item--viewed">
+                                            <a href="" class="header__notify-link">
+                                                <img src="https://knstore.vn/assets/post/img_1617467791795_o_1f2c9fmdf1iv21272usc15hc2t5d.jpg" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">Keo tản nhiệt Cooler Master</span>
+                                                    <span class="header__notify-descriotion">Tặng kèm khi mua CPU</span>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                        <li class="header__notify-item header__notify-item--viewed">
+                                            <a href="" class="header__notify-link">
+                                                <img src="https://edravn.com/media/product/390_1.jpg" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">Màn hình Gaming E-DRA EGM24F1 24 inch FullHD 144hz</span>
+                                                    <span class="header__notify-descriotion">Đã về thêm hàng</span>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                        <li class="header__notify-item">
+                                            <a href="" class="header__notify-link">
+                                                <img src="https://www.galax.com/media/catalog/product/cache/20/image/500x500/9df78eab33525d08d6e5fb8d27136e95/g/x/gx_img_5075.png" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">GTX 1060 3gb & 6gb</span>
+                                                    <span class="header__notify-descriotion">Mẫu VGA đã dừng sản xuất</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <footer class="header__notify-footer">
+                                        <a href="" class="header__notify-footer-btn">
+                                            Xem tất cả
+                                        </a>
+                                    </footer>
+                                </div>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="" class="header__navbar-item-link">
+                                    <i class="header__navbar-icon fa-solid fa-circle-info"></i>
+                                    Trợ giúp
+                                </a>
+                            </li>
+                            <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">
+                                Đăng ký
+                            </li>
+                            <li class="header__navbar-item header__navbar-item--strong">
+                                Đăng nhập
+                            </li> -->
+
+                            <!-- Khi đã đăng nhập -->
+                             <li class="header__navbar-item header__navbar-user">
+                                <img src="./assets/img/maytroi.jpg" alt="" class="header__navbar-user-img">
+                                <span class="header__navbar-user-name">Nguyễn Hiếu</span>
+                                <ul class="header__navbar-user-menu">
+                                    <li class="header__navbar-user-item">
+                                        <a href="">Hồ sơ người dùng</a>
+                                    </li>
+                                    <!-- <li class="header__navbar-user-item">
+                                        <a href="">Địa chỉ của tôi</a>
+                                    </li> -->
+                                    <li class="header__navbar-user-item">
+                                        <a href="">Đơn mua</a>
+                                    </li>
+                                    <li class="header__navbar-user-item header__navbar-user-item-separate">
+                                        <a href="" style="color: #243a95; font-weight: 550;">Đăng xuất</a>
+                                    </li>
+                                </ul>
+                             </li>  
+                        </ul>
+                    </nav>
+
+                    <!-- Header with search -->
+                    <div class="header-with-search">
+                        <div class="header__logo">
+                            <a href="#" class="header__logo-link"><img src="./assets/img/logoWeb.png" alt="" class="header__logo-img"></a>
+                        </div>
+                        <div class="header__search">
+                            <div class="header__search-input-wrap">
+                                <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm">
+
+                                <!-- Lịch sử tìm kiếm -->
+                                <div class="header__search-history">
+                                    <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                    <ul class="header__search-history-list">
+                                        <li class="header__search-history-list-item">
+                                            <a href="">Màn hình máy tính ASUS</a>
+                                        </li>
+                                        <li class="header__search-history-list-item">
+                                            <a href="">Card màn hình RTX 3060</a>
+                                        </li>
+                                        <li class="header__search-history-list-item">
+                                            <a href="">Nguồn máy tính 700W</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header__search-select">
+                                    <span class="header__search-select-label">Trong shop</span>
+                                    <i class="header__search-select-icon fa-sharp fa-solid fa-caret-down"></i>
+
+                                    <ul class="header__search-option">
+                                        <li class="header__search-option-item header__search-option-item--active">
+                                            <span>Trong shop</span>
+                                            <i class="fa-solid fa-check"></i>
+                                        </li>
+                                        <li class="header__search-option-item">
+                                            <span>Ngoài shop</span>
+                                            <i class="fa-solid fa-check"></i>
+                                        </li>
+                                    </ul>
+                            </div>
+                            <button class="header__search-btn">
+                                <i class="header__search-btn-icon fa-sharp fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+
+                        <!-- Gio hang -->
+                        <div class="header__cart">
+                            <div class="header__cart-wrap">
+                                <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                                <span class="header__cart-notice">5</span>
+                                <!-- Gio hang khong co gi - header__cart-list--no-cart-->
+                            <div class="header__cart-list">
+                                <img src="./assets/img/no_cart.webp" alt="" class="header__cart-no-cart-img">
+                                <span class="header__cart-list-no-cart-msg">Chưa có sản phẩm</span>
+
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <!-- Gio hang co san pham -->
+                                    <li class="header__cart-item">
+                                        <img src="https://hanoicomputercdn.com/media/product/72019_ban_phim_co_khong_day_akko_3098b_multi_modes_black_gold__0005_6.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bàn phím cơ Không dây Akko 3098B...</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">2.299.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-describe">Phân loại: chính hãng</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://hanoicomputercdn.com/media/product/68590_mainboard_gigabyte_x670_aorus_elite_ax__6_.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Mainboard Gigabyte X670 AORUS EL...</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">8.199.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-describe">Phân loại: chính hãng</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://hanoicomputercdn.com/media/product/67005_tay_cam_choi_game_sony_ps5_dualsense_nova_pink_hang_chinh_hang_0003_4.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Tay cầm chơi Game Sony PS5</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">1.999.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">3</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-describe">Phân loại: chính hãng</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://hanoicomputercdn.com/media/product/67839_card_man_hinh_colorful_igame_rtx_4090_neptune_oc_v__5_.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">VGA Colorful iGame RTX 4090</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">58.999.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-describe">Phân loại: chính hãng</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://hanoicomputercdn.com/media/product/70676_chuot_gaming_khong_day_razer_deathadder_v3_pro_faker_edition_rz01_04630400_r3m1_0000_1.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Chuột Gaming không dây Razer Dea...</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">4.299.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-describe">Phân loại: chính hãng</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a href="https://www.facebook.com/hieuu.hieu.7/" class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a href="https://www.facebook.com/hieuu.hieu.7/">
+                            </div>
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+            </header>
+
+            <!-- Ho so nguoi dung: Profile -->
+            <div class="user-all">
+                <div class="user-profile">
+                    <div class="user-profile__text">
+                        <h3 class="user-profile__me">Tài khoản của</h3>
+                        <h2 class="user-profile__me-primary">Nguyễn Hiếu</h2>
+                    </div>
+                    <ul class="user-profile__list">
+                        <li class="user-profile__list-item">
+                            <i class="user-profile__list-item-icon fa-solid fa-user"></i>
+                            <a href="" class="user-profile__list-item-link">Thông tin tài khoản</a>
+                        </li>
+                        <li class="user-profile__list-item">
+                            <i class="user-profile__list-item-icon fa-solid fa-calendar-week"></i>
+                            <a href="" class="user-profile__list-item-link">Đơn hàng của tôi</a>
+                        </li>
+                        <li class="user-profile__list-item">
+                            <i class="user-profile__list-item-icon fa-solid fa-heart"></i>
+                            <a href="" class="user-profile__list-item-link">Sổ địa chỉ</a>
+                        </li>
+                        <li class="user-profile__list-item">
+                            <i class="user-profile__list-item-icon fa-solid fa-box"></i>
+                            <a href="" class="user-profile__list-item-link">Sản phẩm mua sau</a>
+                        </li>
+                        <li class="user-profile__list-item">
+                            <i class="user-profile__list-item-icon fa-solid fa-fire"></i>
+                            <a href="" class="user-profile__list-item-link">Tin khuyến mại</a>
+                        </li>
+                        <li class="user-profile__list-item">
+                            <i class="user-profile__list-item-icon fa-solid fa-eye"></i>
+                            <a href="" class="user-profile__list-item-link">Sản phẩm đã xem</a>
+                        </li>
+                        <li class="user-profile__list-item">
+                            <i class="user-profile__list-item-icon fa-solid fa-star"></i>
+                            <a href="" class="user-profile__list-item-link">Đánh giá của tôi</a>
+                        </li>
+                        <li class="user-profile__list-item">
+                            <i class="user-profile__list-item-icon fa-solid fa-comment"></i>
+                            <a href="" class="user-profile__list-item-link">Bình luận của tôi</a>
+                        </li>
+                        <li class="user-profile__list-item">
+                            <i class="user-profile__list-item-icon fa-solid fa-thumbs-up"></i>
+                            <a href="" class="user-profile__list-item-link">Sản phẩm đã thích</a>
+                        </li>
+                        <li class="user-profile__list-item">
+                            <i class="user-profile__list-item-icon fa-solid fa-lock"></i>
+                            <a href="" class="user-profile__list-item-link">Thay đổi mật khẩu</a>
+                        </li>
+                        <li class="user-profile__list-item">
+                            <i class="user-profile__list-item-icon fa-solid fa-power-off"></i>
+                            <a href="" class="user-profile__list-item-link">Đăng xuất tài khoản</a>
+                        </li>
+                    </ul>
+                    <div class="information__backround">
+                        <h2 class="information-account">Thông tin tài khoản</h2>
+                        <div class="information-line"></div>
+                        <div class="information-account__infor-bag">
+                            <label for="Ho ten" class="information-account__infor">Họ tên: </label>
+                            <input type="text" class="information-account__infor-input"><br>
+                        </div>
+
+                        <div class="information-account__infor-bag">
+                            <label for="Ngay sinh" class="information-account__infor">Ngày sinh: </label>
+                            <input type="date" class="information-account__infor-input-date"><br>
+                        </div>
+
+                        <div class="information-account__infor-bag">
+                            <label for="SDT" class="information-account__infor">Số điện thoại: </label>
+                            <input type="text" class="information-account__infor-input"><br>
+                        </div>
+
+                        <div class="information-account__infor-bag">
+                            <label for="email" class="information-account__infor">Email: </label>
+                            <input type="email" class="information-account__infor-input"><br>
+                        </div>
+
+                        <div class="information-account__infor-bag">
+                            <label for="Gioi tinh" class="information-account__infor">Giới tính: </label>
+                            <input name="gender" type="radio" class="information-account__infor-input-gender" value="Nam">
+                            <span class="left__top">Nam</span>
+                            <input name="gender" type="radio" class="information-left information-account__infor-input-gender" value="Nữ">
+                            <span class="left__top">Nữ</span>
+                            <input name="gender" type="radio" class="information-left information-account__infor-input-gender" value="Khác">
+                            <span class="left__top">Khác</span>
+                        </div>
+
+                        <div class="information-account__infor-bag">
+                            <label for="Dia chi" class="information-account__infor">Địa chỉ: </label>
+                            <input type="text" class="information-account__infor-input"><br>
+                        </div>
+
+                        <div class="information-account__infor-bag">
+                            <label for="Tinh/thanh pho" class="information-account__infor">Tỉnh/thành phố: </label>
+                            <input type="text" class="information-account__infor-input"><br>
+                        </div>
+
+                        <div class="information-account__infor-bag">
+                            <label for="Quan/huyen" class="information-account__infor">Quận/huyện: </label>
+                            <input type="text" class="information-account__infor-input"><br>
+                        </div>
+
+                        <div class="update-information">
+                            <a href="#" class="btn btn--primary update-information__button">
+                                Cập nhật
+                            </a>
+                        </div>
+                    </div>
+                    <div class="update-avatar">
+                        <div class="update-avatar__me">
+                            <img src="./assets/img/maytroi.jpg" alt="" class="update-avatar__me-img">
+                        </div>
+                        <a href="#" class="btn btn--primary update-information__button">
+                            Chọn ảnh
+                        </a>
+                        <br>
+                        <div class="update-avatar__infor">
+                            <span class="update-avatar__describe">Dung lượng tối đa 1MB</span> <br>
+                            <span class="update-avatar__describe">Định dạng:..JPEG, .PNG</span>
+                        </div>
+                    </div>
+                </div>
+                <footer class="footer">
+                    <div class="grid">
+                        <div class="grid__row">
+                            <div class="grid__column-2-4">
+                                <h3 class="footer__heading">Giới thiệu HpComputer</h3>
+                                <ul class="footer-list">
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            Giới thiệu công ty
+                                        </a>
+                                    </li>
+    
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            Liên hệ hợp tác kinh doanh
+                                        </a>
+                                    </li>
+    
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            Thông tin tuyển dụng
+                                        </a>
+                                    </li>
+    
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            Tin công nghệ
+                                        </a>
+                                    </li>
+    
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            Tin tức
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <div class="grid__column-2-4">
+                                <h3 class="footer__heading">Hỗ trợ khách hàng</h3>
+                                <ul class="footer-list">
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            Tra cứu đơn hàng
+                                        </a>
+                                    </li>
+    
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            Hướng dẫn mua hàng trực tuyến
+                                        </a>
+                                    </li>
+    
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            Hướng dẫn thanh toán
+                                        </a>
+                                    </li>
+    
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            Hướng dẫn mua hàng trả góp
+                                        </a>
+                                    </li>
+    
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            In hóa đơn điện tử
+                                        </a>
+                                    </li>
+    
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            Gửi yêu cầu bảo hành
+                                        </a>
+                                    </li>
+    
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            Góp ý, khiếu nại
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <div class="grid__column-2-4">
+                                <h3 class="footer__heading">Chính sách chung</h3>
+                                <ul class="footer-list">
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            Chính sách, quy định chung
+                                        </a>
+                                    </li>
+    
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            Giao hàng 2h - Hp Faster
+                                        </a>
+                                    </li>
+    
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            Chính sách bảo hành
+                                        </a>
+                                    </li>
+    
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            Chính sách cho doanh nghiệp
+                                        </a>
+                                    </li>
+    
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            Chính sách hàng chính hãng
+                                        </a>
+                                    </li>
+    
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            Bảo mật thông tin khách hàng
+                                        </a>
+                                    </li>
+    
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            Chính sách nhập lại tính phí
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <div class="grid__column-2-4">
+                                <h3 class="footer__heading">Thông tin khuyến mại</h3>
+                                <ul class="footer-list">
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            Thông tin khuyến mại
+                                        </a>
+                                    </li>
+    
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            Sản phẩm khuyến mại
+                                        </a>
+                                    </li>
+    
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            Sản phẩm mới
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <div class="grid__column-2-4">
+                                <h3 class="footer__heading">Theo dõi chúng tôi trên</h3>
+                                <ul class="footer-list">
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            <i class="footer-item__icon fa-brands fa-square-facebook"></i>
+                                            Facebook
+                                        </a>
+                                    </li>
+    
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            <i class="footer-item__icon fa-brands fa-instagram"></i>
+                                            Instagram
+                                        </a>
+                                    </li>
+    
+                                    <li class="footer-item">
+                                        <a href="" class="footer-item__link">
+                                            <i class="footer-item__icon fa-brands fa-linkedin"></i>
+                                            Linkedln
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+                    <div class="footer__bottom">
+                        <div class="gird">
+                                <p class="footer__text">© 2023 Công ty Cổ phần đầu tư công nghệ HpComputer <br>
+        
+                                    Địa chỉ: Số 165, ngõ 448, đường Hà Huy Tập, thị Trấn Yên Viên, Gia Lâm, Hà Nội <br>
+                                    
+                                    GPĐKKD số 0914481203 do Sở KHĐT Tp.Hà Nội cấp ngày 5/9/2003 <br>
+                                    
+                                    Email: tunhienbikick@gmail.com. Điện thoại: 3878 1108</p>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+    </body>
+</html>
